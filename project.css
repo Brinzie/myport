@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 html,
@@ -42,4 +42,24 @@ header > h1 {
 
 .port-span {
   color: yellow;
+}
+
+.main-container {
+  padding: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  height: 20rem;
+  width: 15rem;
+  overflow: hidden;
+}
+
+.image-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
